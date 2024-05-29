@@ -1,49 +1,47 @@
-# Project Name
-> Outline a brief description of your project.
-
+# Advanced Regression Assignment - House Price Prediction
+> A US-based housing company named Surprise Housing has decided to enter the Australian market. The company uses data analytics to purchase houses at a price below their actual values and flip them on at a higher price. For the same purpose, the company has collected a data set from the sale of houses in Australia. The data is provided in the CSV file below.
+# Business Objective
+> You are required to model the price of houses with the available independent variables. This model will then be used by the management to understand how exactly the prices vary with the variables. They can accordingly manipulate the strategy of the firm and concentrate on areas that will yield high returns. Further, the model will be a good way for management to understand the pricing dynamics of a new market. Ridge and Lasso Regeression
 
 ## Table of Contents
 * [General Info](#general-information)
-* [Technologies Used](#technologies-used)
 * [Conclusions](#conclusions)
+* [Technologies Used](#technologies-used)
 * [Acknowledgements](#acknowledgements)
 
 <!-- You can include any other section that is pertinent to your problem -->
 
 ## General Information
-- Provide general information about your project here.
-- What is the background of your project?
-- What is the business probem that your project is trying to solve?
-- What is the dataset that is being used?
+- You are required to model the price of houses with the available independent variables.
+- This model will then be used by the management to understand how exactly the prices vary with the variables.
+- They can accordingly manipulate the strategy of the firm and concentrate on areas that will yield high returns.
+- Further, the model will be a good way for management to understand the pricing dynamics of a new market.
 
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
 ## Conclusions
-- Conclusion 1 from the analysis
-- Conclusion 2 from the analysis
-- Conclusion 3 from the analysis
-- Conclusion 4 from the analysis
+- From the three models Linear. Ridge and Lasso, Lasso Regression model is the best among the three as the accuracy is high and error is less compared to other models. Also, Lasso brings coefficient to zero for insignificant features, It is preferable to use Lasso Regression.
+- Top 5 most important predictor variables are GrLivArea, OverallQual, LotArea, BsmtFinSF1 and TotalBsmtSF.
 
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
 
 ## Technologies Used
-- library - version 1.0
-- library - version 2.0
-- library - version 3.0
-
+- [Python](https://www.python.org/) - version 3.11.5
+- [Numpy](https://www.numpy.org) - version 1.24.3
+- [Pandas](https://pandas.pydata.org) - version 2.0.3
+- [Matplotlib](https://matplotlib.org) - version 3.7.2
+- [Seaborn](https://seaborn.pydata.org) - version 0.12.2
+- [Statsmodels](https://www.statsmodels.org) - version 0.14.0
 <!-- As the libraries versions keep on changing, it is recommended to mention the version of library used in this project -->
 
 ## Acknowledgements
-Give credit here.
-- This project was inspired by...
-- References if any...
-- This project was based on [this tutorial](https://www.example.com).
+- This project was inspired by live session of upGrad on Linear Regression.
+- [UpGrad](https://www.upgrad.com/) tutorials on Linear Regression on the learning platform.
 
 
 ## Contact
-Created by [@githubusername] - feel free to contact me!
-
+Created by [@Pragyan Choudhury](https://github.com/Pragyan-Choudhury) - feel free to contact me!
 
 <!-- Optional -->
 <!-- ## License -->
